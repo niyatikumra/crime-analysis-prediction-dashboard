@@ -1,0 +1,19 @@
+# Python stuff (temporary files)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (don't upload the folder where libraries are installed)
+venv/
+env/
+.env
+
+# VS Code specific (settings you don't need on GitHub)
+.vscode/
+
+# Streamlit temporary files
+.streamlit/
+
+# OS-specific files (Mac/Windows hidden files)
+.DS_Store
+Thumbs.db
